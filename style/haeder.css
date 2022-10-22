@@ -1,0 +1,94 @@
+
+
+.contente {
+  background-color: rgba(0, 0, 255, 0.399);
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contente-conteiner {
+  width: 348px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contente-conteiner--perfil {
+  height: 292px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contente-conteiner--midias {
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 25px;
+}
+
+
+/* parando aqui */
+
+
+
+.contente-conteiner--tecnologia {
+  height: 208px;
+}
+
+.link-midia {
+  display: flex;
+  gap: 20px;
+}
+
+/* Perfil */
+.imagem-perfil {
+  width: 134px;
+  height: 134px;
+  border: 3px solid fuchsia;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.img-parfil {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+
+/* Midas-link */
+
+.link-midias {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* Tecnologia */
+
+.tecnologia-item {
+  width: 86px;
+  height: 24px;
+  color: #fff;
+  background-color: rgba(112, 13, 112,  0.991);
+  border-radius: 20px;
+  text-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tecnologia-item {
+  font-size: 10px;
+}
