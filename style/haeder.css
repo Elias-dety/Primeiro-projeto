@@ -1,10 +1,11 @@
 
 
 .contente {
-  background-color: rgba(0, 0, 255, 0.399);
-  width: 340px;
+  width: 300px;
+  height: 200px;
   display: flex;
   flex-direction: column;
+  
 }
 
 .contente-conteiner {
@@ -14,37 +15,31 @@
   align-items: center;
 }
 
+.item--info1 {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.item--info2 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.titulo-cards {
+  width: 300px;
+}
+
+/* Perfil */
+
 .contente-conteiner--perfil {
   height: 292px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 15px;
 }
 
-.contente-conteiner--midias {
-  height: 348px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  padding-left: 25px;
-}
-
-
-/* parando aqui */
-
-
-
-.contente-conteiner--tecnologia {
-  height: 208px;
-}
-
-.link-midia {
-  display: flex;
-  gap: 20px;
-}
-
-/* Perfil */
 .imagem-perfil {
   width: 134px;
   height: 134px;
@@ -64,10 +59,20 @@
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  gap: 10px;
 }
 
 
 /* Midas-link */
+
+.contente-conteiner--midias {
+  height: 348px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 25px;
+  align-items:stretch;
+}
 
 .link-midias {
   text-decoration: none;
@@ -75,7 +80,19 @@
   align-items: center;
 }
 
+.link-midia {
+  display: flex;
+  gap: 20px;
+}
+
 /* Tecnologia */
+
+.contente-conteiner--tecnologia {
+  height: 208px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
 
 .tecnologia-item {
   width: 86px;
@@ -89,6 +106,39 @@
   justify-content: center;
 }
 
+.tecnologia-list {
+  width: 300px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
 .tecnologia-item {
   font-size: 10px;
+}
+
+.titulo-cards {
+  padding-top: 15px;
+}
+
+/* Experiencias */
+
+.contente-conteiner--experiencias_educacao {
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.list-style {
+  width: 200px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: px;
 }
