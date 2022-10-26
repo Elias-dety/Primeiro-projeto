@@ -36,7 +36,6 @@ main {
 
 .sidebar {
   
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -55,6 +54,9 @@ main {
 
 .sidebar-direita {
   background-color: #cb92b164;
+  gap: 30px;
+  justify-content: space-around;
+  padding-top: 30px;
 }
 
 .card {
